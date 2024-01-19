@@ -1,21 +1,27 @@
-![alt text](https://github.com/Rishav-hub/face_auth_dev/blob/b440f8d95722e3c26a917011a3f89c7aed7b711a/docs/68747470733a2f2f696e6575726f6e2e61692f696d616765732f696e6575726f6e2d6c6f676f2e706e67.png?raw=true)
+# deep-authentication-app
 
-# Face Authentication System
+The goal of the project is to create a face authentication system that can be installed in places where high security is required.
+This is a modern Face Authentication System which includes state-of-art algorithms to detect face and generate face embedding. This system contains endpoints which can be integrated to any device depending on the requirements. The ayatem has 2 stage authentication system
+ie manual using login id and password and face based authentication system using MTCNN and FaceNet.
 
-This is a modern Face Authentication System which includes state-of-art algorithms to detect face and generate face embedding. This system contains endpoints which can be integrated to any device depending on the requirements. 
+## Tech Used
+1. MTCNN,FaceNet
+2. Fast API
+3. Mongo DB
+4. Azure Container Registry,Azure App Service
 
-## Project Archietecture
+## Project Architechture
 <img width="844" alt="image" src="https://user-images.githubusercontent.com/57321948/195135349-9888d9ea-af5d-4ee2-8aa4-1e57342add05.png">
 
 ## Run the Application
-Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need Azure account to access the service like ACS and App services.
+The project uses MongoDB with Compass for data storage.Azure is used to access the service like ACS and App services.
 
 ### Step 1-: Clone the Repository
 ```
 git clone https://github.com/Deep-Learning-01/Deep-Authenticator.git
 ```
 
-### Step 2-: Creat conda environment
+### Step 2-: Create conda environment
 ```
 conda create -p ./env python=3.8.13 -y
 ```
@@ -78,4 +84,4 @@ docker run -d -p 8000:8000 <IMAGEID OR IMAGENAME>
 - Azure App Services for deploying the application
 - GitHub Actions for CI/CD
 
-#### Please refer this [documentation](https://github.com/Rishav-hub/face_auth_dev/blob/main/docs/setup.md) for deployment to Azure.
+
