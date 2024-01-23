@@ -1,7 +1,7 @@
 # deep-authentication-app
 
 The goal of the project is to create a face authentication system that can be installed in places where high security is required.
-This is a modern Face Authentication System which includes state-of-art algorithms to detect face and generate face embedding. This system contains endpoints which can be integrated to any device depending on the requirements. The ayatem has 2 stage authentication system
+This is a modern Face Authentication System which includes state-of-art algorithms to detect face and generate face embedding. This system contains endpoints which can be integrated to any device depending on the requirements. It has 2 stage authentication system
 ie manual using login id and password and face based authentication system using MTCNN and FaceNet.
 
 ## Tech Used
