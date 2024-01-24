@@ -39,6 +39,6 @@ jobs:
       - name: Deploy to Azure Web App Service
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "deepauthenticationapp"
+          app-name: "deepfaceapp"
           images: ${{ secrets.AZURE_LOGIN_SERVER }}/${{ secrets.REPO_NAME }}:${{ github.sha }}
 
